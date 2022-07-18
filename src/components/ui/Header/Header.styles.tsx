@@ -2,31 +2,22 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   position: relative;
   width: 100%;
-  box-sizing: border-box;
-  padding: 0 3rem 0 3rem;
+  height: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  color: #9f9f9f;
+  color: #9F9F9F;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 `;
 export const HeaderTitle = styled.div`
-  padding-left: 10%;
-  font-weight: 300;
-  color: #9f9f9f;
-  font-size: 1.6vh;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 12.7%;
 `;
 export const HeaderIconsContainer = styled.div`
-  padding-right: 10%;
-  font-size: 2.2vh;
+  margin-right: 10.42%;
   i {
     padding-left: 0.5vw;
-    color: #7a7a7a;
   }
-`;
-export const StyledHR = styled.hr`
-  margin: 0;
-  padding: 0;
-  border: none;
-  border-bottom: 1px solid #e5e5e5;
 `;
