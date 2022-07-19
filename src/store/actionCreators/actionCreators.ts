@@ -1,5 +1,6 @@
 import { updateForm, changeStep } from "../donateFormSlice";
-export {
+const ActionCreators = {
   updateForm,
   changeStep,
 };
+export default ActionCreators
