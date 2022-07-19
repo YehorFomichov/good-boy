@@ -1,8 +1,10 @@
 import type { NextPage } from 'next'
+import MainLayout from "../components/layout/MainLayout";
+import Stepper from "../components/layout/MainForm";
 
 const Home: NextPage = () => {
   return (
-    <div>Start page</div>
+    <MainLayout><Stepper/></MainLayout>
   )
 }
 
